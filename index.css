@@ -1,10 +1,60 @@
-*{
-    background-color: bisque;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 40px 20px;
     text-align: center;
-
-}
-
-h1{
-    text-decoration: underline;
-    background-color: salmon;
-}
+  }
+  
+  section {
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #4a90e2;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    padding: 5px 0;
+  }
+  
+  .project {
+    background: #e3f2fd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .contact a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+  
